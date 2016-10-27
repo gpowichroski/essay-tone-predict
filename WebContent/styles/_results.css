@@ -47,7 +47,19 @@
   padding: 15px;
   height: 238px;
  }
-
+ 
+ .persona-top2 {
+  background: white;
+  padding: 15px;
+  min-height: 250px;
+  overflow: hidden;
+ }
+ .persona-top3 {
+  background: white;
+  padding: 15px;
+  min-height: 150px;
+  overflow: hidden;
+ }
 .title {
   font-size: 20px;
   font-weight: 200;

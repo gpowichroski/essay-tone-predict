@@ -4,10 +4,10 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"  
     id="WebApp_ID" version="2.5">  
 
-  <display-name>Hello Java</display-name>
+  <display-name>Hello Tone Analysis App</display-name>
   <servlet>
 	    <servlet-name>InitDB</servlet-name>
-	    <servlet-class>com.ibm.personafusion.InitDB</servlet-class>
+	    <servlet-class>com.ibm.toneanalysis.InitDB</servlet-class>
 	    <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet>
