@@ -8,12 +8,12 @@ declared-services:
     plan: standard
 applications:
 - disk_quota: 1024M
-  host: predictinator-teacher
-  name: predictinator-teacher
+  host: essay-tone-analyzer
+  name: essay-tone-analyzer
   path: ./toneAnalysis.war
   instances: 1
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   memory: 512M
   services:
-    - predictinator
-    - predictinator-analyzer
+    - tone-analyzer-db
+    - tone-analyzer-api

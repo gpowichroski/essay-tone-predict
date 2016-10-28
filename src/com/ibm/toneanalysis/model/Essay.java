@@ -1,6 +1,6 @@
 package com.ibm.toneanalysis.model;
 
-public class Essay implements Comparable<Essay>
+public class Essay 
 {
 	public String teacher;
 	public String classs;
@@ -35,11 +35,6 @@ public class Essay implements Comparable<Essay>
 		this.tone = tone;
 	}
 
-	@Override
-	public int compareTo(Essay arg0) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 	
 	
 }

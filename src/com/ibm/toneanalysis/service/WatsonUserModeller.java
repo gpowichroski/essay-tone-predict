@@ -95,7 +95,7 @@ public class WatsonUserModeller
 		// Call the service and get the tone
 		System.out.println("username = "+username);
 		System.out.println("password = "+password);		
-		ToneAnalysis tone = service.getTone(text, null).execute();
+		ToneAnalysis tone = (ToneAnalysis) service.getTone(text, null).execute();
 		return tone.toString();
 	}	
 	
