@@ -26,7 +26,6 @@
 	<classpathentry kind="lib" path="dep-jar/junit-4.11.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_60"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Laptop/Desktop/DEV/java-sdk-3.5.0-jar-with-dependencies.jar"/>
 	<classpathentry kind="lib" path="dep-jar/servlet-api.jar"/>
 	<classpathentry kind="lib" path="dep-jar/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="dep-jar/commons-lang-2.3.jar"/>
@@ -37,5 +36,6 @@
 	<classpathentry kind="lib" path="dep-jar/stax-api-1.0-2.jar"/>
 	<classpathentry kind="lib" path="dep-jar/wink-common-1.4.jar"/>
 	<classpathentry kind="lib" path="dep-jar/wink-server-1.4.jar"/>
+	<classpathentry kind="lib" path="dep-jar/java-sdk-3.5.0-jar-with-dependencies.jar"/>
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>
